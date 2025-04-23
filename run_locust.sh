@@ -1,8 +1,8 @@
 #!/bin/bash
 
 HOST="https://demoday-a.dev-k8s.arkain.io"
-USERS=1000
-SPAWN_RATE=1000
+USERS=100
+SPAWN_RATE=100
 RUN_TIME="2m"
 
 if [ ! -d "venv" ]; then
