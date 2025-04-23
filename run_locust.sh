@@ -3,7 +3,7 @@
 HOST="https://demoday-a.dev-k8s.arkain.io"
 USERS=1000
 SPAWN_RATE=1000
-RUN_TIME="10m"
+RUN_TIME="2m"
 
 if [ ! -d "venv" ]; then
     python3 -m venv venv
