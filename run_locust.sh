@@ -1,9 +1,9 @@
 #!/bin/bash
 
 HOST="https://demoday-a.dev-k8s.arkain.io"
-USERS=100
-SPAWN_RATE=100
-RUN_TIME="2m"
+USERS=150
+SPAWN_RATE=20
+RUN_TIME="5m"
 
 if [ ! -d "venv" ]; then
     python3 -m venv venv
